@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+background-color: black;
+padding: 5px ;
+display: flex;
+justify-content: space-between;
+height: 50px;
+align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 40px;
+}
+
+nav ul li{
+    color: white;
+    margin-right: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: red;
+    background-color: yellow;
+    border-radius: 7px;
+}
+
+#s{
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 27px;
+    width: 199px;
+    height: 38px;
+    font-weight: bold;
+}
+/* Responsive Design For Navbar  */
+@media (min-width:100px) and (max-width:450px) {
+    nav ul li{
+        color: white;
+        margin-right: 5px;
+        margin-left: 3px;
+        font-size: small;
+    }
+    #s{
+        border-radius: 44px;
+        text-align: center;
+        text-decoration: none;
+        margin-right: 12px;
+        width: 113px;
+        height: 37px;
+    }
+}
+
+#main{
+    background-color: antiquewhite;
+    height: 80vh;
+    background-image: url(/pic.jpg);
+    background-size: 10;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+    background-image: url(/pic2.jpg);
+    
+}
+
+textarea{
+    margin: 10px auto;
+}
+#progress{
+    /* margin: 15px auto; */
+    /* width: 630px; */
+    margin-top: 12px;
+    height: 1px;
+    padding: 2px;
+}
+
+@media (min-width:500px) and (max-width:900px) {
+
+}
+#btn{
+    color: red;
+    margin: auto;
+    border-radius: 12px;
+    padding: 6px;
+    margin: 12px auto;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#keys{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px ;
+}
+.btns{
+    color: yellow;
+    background-color: red;
+    padding: 4px;
+    border-radius: 21px;
+    width: 47px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btns:active{
+background-color: yellow;
+color: red;
+}
