@@ -62,8 +62,6 @@ nav ul li:hover{
 #main{
     background-color: antiquewhite;
     height: 80vh;
-    background-image: url(/SimpleGame/pic.jpg);
-    background-size: 10;
 }
 .container{
     display: flex;
@@ -73,7 +71,6 @@ nav ul li:hover{
     margin: auto;
     padding: 20px;
     background-color: aqua;
-    background-image: url(/SimpleGame/pic2.jpg);
     
 }
 
