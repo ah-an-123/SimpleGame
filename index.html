@@ -8,6 +8,41 @@
     <title>RandGame</title>
     <link rel="stylesheet" href="/SimpleGame/style.css">
 </head>
+<style>
+    /* internal Css */
+    #welNote {
+        text-align: center;
+    }
+
+    #name {
+        font-weight: bold;
+        border-bottom-color: red;
+        border-bottom-width: 11px;
+        border-bottom-style: solid;
+        box-sizing: border-box;
+        border-top-color: yellow;
+        border-top-width: 10px;
+        border-top-style: solid;
+        border-right-color: blue;
+        border-right-width: 11px;
+        border-right-style: solid;
+        border-left-color: white;
+        border-left-width: 11px;
+        border-left-style: solid;
+        padding: 2px;
+        border-radius: 20px;
+    }
+
+    #n {
+        margin: 27px auto;
+        width: 53%;
+        height: 48px;
+        border-radius: 28px;
+        outline: none;
+        text-align: center;
+        box-sizing: border-box;
+    }
+</style>
 
 <body>
     <!-- Nav Bar  -->
@@ -23,15 +58,15 @@
     <!-- main  -->
     <main id="main">
         <div class="container">
-    
-            <textarea name="t" id="n" cols="20" rows="5"></textarea>
+            <h2 id="welNote">Wellcome Player <span id="name">Unknown</span></h2>
+            <input disabled type="text" id="n">
             <hr>
             <progress id="progress" value="50" max="100"></progress>
             <button id="btn">Enter</button>
             <div id="keys">
                 <button id="0" class="btns">0</button>
                 <button id="1" class="btns">1</button>
-                <button  id="2" class="btns">2</button>
+                <button id="2" class="btns">2</button>
                 <button id="3" class="btns">3</button>
                 <button id="4" class="btns">4</button>
             </div>
@@ -49,5 +84,4 @@
     </main>
 </body>
 <script src="/SimpleGame/script.js"></script>
-
 </html>
