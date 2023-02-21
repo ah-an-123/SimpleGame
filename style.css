@@ -99,10 +99,9 @@ textarea{
     margin: 10px auto;
 }
 #progress{
-    margin-top: 12px;
     height: 1px;
     padding: 2px;
-    margin: auto;
+    margin:12px auto;
     width: 100%;
 }
 
