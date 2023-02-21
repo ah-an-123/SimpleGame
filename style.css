@@ -74,7 +74,8 @@ nav ul li:hover{
         height: 12px;
     }
     .container{
-        height: 40vh;
+        height: 50vh;
+    
     }
 
 }
@@ -101,6 +102,8 @@ textarea{
     margin-top: 12px;
     height: 1px;
     padding: 2px;
+    margin: auto;
+    width: 100%;
 }
 
 @media (min-width:500px) and (max-width:900px) {
